@@ -1,0 +1,439 @@
+body {
+    background: #eaeaea;
+}
+
+.introsec {
+    background: url(img/148679086052148.jpeg);
+    color: white;
+    background-size: 100% 100%;
+    height: 700px;
+}
+
+
+.onesec {
+    background: url(http://cdn-s3.si.com/s3fs-public/2016/10/26/joel-embiid-76ers-heat.jpg) fixed;
+    color: white;
+    background-size: 100% 100%;
+}
+
+.twosec {
+    background: url(http://68.media.tumblr.com/05f2849c472e096cbaad9c41fb13d2e1/tumblr_o6nsm8cU8q1ruj0bpo1_1280.jpg) fixed;
+    color: white;
+    background-size: 100% 100%;
+}
+
+.threesec {
+    background: url(http://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2014%2F1106%2Fnba_g_lebron_kyrie_b2_1296x729.jpg) fixed;
+    color: white;
+    background-size: 100% 100%;
+}
+
+.foursec {
+    background: url(https://images.unsplash.com/photo-1486591978090-58e619d37fe7?dpr=1&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=) fixed;
+    color: white;
+    background-size: 100% 100%;
+}
+
+h2 {
+    font-family: 'Lora', serif !important;
+    font-size: 42pt !important;
+    color: white;
+    opacity: 0.7;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+h2:hover {
+    opacity: 1;
+    cursor: pointer;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+
+.introsec h2 {
+    font-size: 55pt !important;
+    text-align: center !important;
+    text-shadow: 2px 2px #333 !important;
+    color:white !important;
+}
+
+.othercontent {
+    height: auto;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #eaeaea;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.card {
+    width: 100%;
+    height: 400px;
+    border: 2px solid #e8e7e7;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.card img {
+    height: 250px;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.card img:hover {
+    opacity: 0.6;
+    cursor: pointer;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.actitle {
+    font-size: 20pt;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    border-bottom: 2px solid #ebebeb;
+    width: auto;
+    padding-bottom: 2px;
+    text-transform: lowercase;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.actitle:hover {
+    border-bottom: 2px solid #333;
+    cursor: pointer;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.acabout {
+    font-size: 16pt;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    color: #333;
+    opacity: 0.4;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.acabout:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.spotlight {
+    background: url(http://68.media.tumblr.com/ef8f552593726fcbb50c679ebba918b8/tumblr_nplpb244g31ruj0bpo1_1280.jpg) fixed;
+    height: 650px;
+    background-size: 100% 100%;
+}
+
+.spotlight h3 {
+    padding-top:200px;
+    font-size: 42pt;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    color: white;
+    letter-spacing: 4px;
+}
+
+a.spotlight {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    font-size: 18pt;
+    background: transparent;
+}
+
+.contributors {
+    background: url(img/345345879.png) fixed;
+    height: auto;
+    background-size: 100% 100%;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.card2 {
+    width: 100%;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.76);
+    background-color: rgba(255, 255, 255, 0.86);
+/*    background-color: rgba(255, 255, 255, 0.57);*/
+    border-radius: 7px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #333;
+}
+
+p.border {
+    border: 2px solid rgba(0, 0, 0, 0.12);
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p.name {
+    font-size: 22pt;
+    color: rgba(0, 0, 0, 0.67);
+/*    color: white;*/
+}
+
+small {
+    font-size: 12pt;
+}
+
+p.social {
+    font-size: 19pt;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    opacity: 0.4;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+p.social:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+img.profilepic {
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    border: 5px solid #3eb490;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.propic1 {
+    border-color: #3eb489 !important;
+}
+
+.propic2 {
+    border-color: #ff406d !important;
+}
+
+.propic3 {
+    border-color: #00caef !important;
+}
+
+.propic4 {
+    border-color: #ffff40 !important;
+}
+
+.propic5 {
+    border-color: #3eabb4 !important;
+}
+
+.propic6 {
+    border-color: #ffffff !important;
+}
+
+img.profilepic:hover {
+    cursor: pointer;
+    opacity: 0.85;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+p.contributors {
+    color: white;
+    font-size: 24pt;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px black;
+    text-align: center;
+}
+
+input.contact {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: none;
+    border: 2px solid #dbdbdb;
+    ;
+    padding-left: 10px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    color: black;
+}
+
+input.contact:focus {
+/*    border-color: #ff406d;*/
+    outline: none;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+textarea {
+    width: 100%;
+    height: 140px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: none;
+    border: 2px solid #dbdbdb;
+    padding-left: 10px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    color: black;
+    resize: none;
+}
+
+textarea:focus {
+/*    border-color: #ff406d;*/
+    outline: none;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+a.submit {
+    width: 100%;
+    display: block;
+    height: 45px;
+    line-height: 43px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: none;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    color: white;
+    background: #333;
+    font-size:15pt;
+}
+
+a.submit:hover {
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    text-decoration: none;
+    cursor: pointer;
+    background: rgba(51, 51, 51, 0.83);
+}
+
+a.submit:active {
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    background: #333;
+}
+
+.mhdr {
+    width:100%;
+    position:fixed;
+    background-color:white;
+    height:45px;
+    line-height:45px;
+    z-index:10000 !important;
+}
+
+input.search {
+  width:25%;  background:url(https://d30y9cdsu7xlg0.cloudfront.net/png/6983-200.png)no-repeat;
+    height:35px;
+    background-position: center center;
+    background-size:20px 20px;
+    border:2px solid transparent;
+    border-radius:10px%;
+    text-align:center;
+    color:transparent;cursor:pointer;
+     transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+
+input.search:focus {
+     background:url(https://d30y9cdsu7xlg0.cloudfront.net/png/6983-200.png)no-repeat;
+    background-color:#eaeaea;
+    width:100%;
+    outline:none;
+    padding-left:30px;
+    padding-right:10px;
+    color:black;cursor:text;
+    background-position: left center;
+    background-size:20px 20px;
+    border:2px solid transparent;
+    border-radius:10px%;
+    text-align:center;
+     transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+     transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.nearbottom {
+    margin-bottom:200px;
+}
+
+.footsec {
+background: linear-gradient(
+      rgba(247, 109, 231, 0.28), 
+      rgba(94, 185, 234, 0.65)
+    ), url(img/345345879.png) fixed;
+    background-repeat:no-repeat;
+    background-size:100% 200%;
+    height:300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color:white;
+}
+
+a {
+    color:white;
+}
+
+a:hover{
+    color:white;
+}
